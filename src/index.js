@@ -1,6 +1,12 @@
 import { setItem } from "./utils/storage";
+import "./index.scss";
+import "bootstrap";
 
-alert("hello webpack");
 
-
-setItem("token" , "doichjodjcadspkcèasdifg'0vtjàpbjsidfkjrvoahé")
+document.getElementById("btnClick").addEventListener("click", () => {
+  alert("Hello Webpack");
+  setItem(
+    "token",
+    "klsdjfklsjkdfjksldsdkjfklsjdfklsjdlfkjslkdfjklsfklsjkldfjskljfklsjfl"
+  );
+});
